@@ -11,3 +11,6 @@ URL: /save Method: POST Description: Saves the new employee details and redirect
 URL: /showFormForUpdate/{id} Description: Fetches the details of a specific employee by ID and provides a form to update their information. Template: update.html Delete Employee
 
 URL: /deleteEmployee/{id} Description: Deletes the employee with the specified ID and redirects to the homepage. Technologies Used Spring Boot: For creating RESTful services and handling backend logic. Thymeleaf: To render dynamic HTML pages for adding, viewing, and updating employee details. MySQL: Used as the database to store employee information.
+
+Deployed Site:
+    Access the live site here:     https://miniproject-1-deploy.onrender.com/homePage.
